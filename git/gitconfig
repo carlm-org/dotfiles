@@ -1,0 +1,15 @@
+[user]
+	name = Mickaël Carl
+	email = contact+git@carlm.org
+[core]
+	excludesfile = /home/carlm/.gitignore_global
+	editor = vim
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+
+[github]
+	user = carlm-org

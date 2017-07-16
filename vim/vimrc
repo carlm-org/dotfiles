@@ -1,0 +1,15 @@
+set nocompatible " as if I cared about vi compatibility
+set shiftwidth=4 " number of spaces to shift
+set tabstop=4    " number of spaces per tab
+set expandtab    " transform tab to spaces
+set autoindent   " auto-identation
+set number	 " display the line number
+set hlsearch     " highlight when searching
+
+set history=200  " keep 200 lines of command line history
+set ruler        " show the cursor position
+set scrolloff=10 " lines of context around the cursor
+set undolevels=1000
+filetype plugin indent on
+syntax on
+

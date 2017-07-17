@@ -1,0 +1,11 @@
+- defaults:
+    link:
+        create: true
+        relink: true
+
+- clean: ['~']
+
+- link:
+    # i3
+    ~/.config/i3: i3/work/i3
+    ~/.config/i3status: i3/work/i3status

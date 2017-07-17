@@ -29,5 +29,8 @@ set history=200   " keep 200 lines of command line history
 set ruler         " show the cursor position
 set scrolloff=10  " lines of context around the cursor
 set undolevels=1000
+
+let g:airline_theme='murmur'
+
 syntax on
 

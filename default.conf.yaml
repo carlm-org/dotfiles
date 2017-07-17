@@ -11,3 +11,4 @@
 
     # vim
     ~/.vimrc: vim/vimrc
+    ~/.vim/bundle/Vundle.vim: vim/Vundle.vim

@@ -12,12 +12,5 @@
     # git
     ~/.gitconfig: git/gitconfig
 
-    # i3
-    ~/.config/i3: i3/i3
-    ~/.config/i3status: i3/i3status
-    
     # vim
     ~/.vimrc: vim/vimrc
-
-    # X
-    ~/.xinitrc: X/xinitrc

@@ -9,3 +9,6 @@
     # i3
     ~/.config/i3: i3/work/i3
     ~/.config/i3status: i3/work/i3status
+
+    # fish
+    ~/.config/fish/config.fish: fish/work.config.fish

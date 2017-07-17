@@ -6,9 +6,6 @@
 - clean: ['~']
 
 - link:
-    # fish
-    ~/.config/fish/config.fish: fish/config.fish
-
     # git
     ~/.gitconfig: git/gitconfig
 

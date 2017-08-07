@@ -1,0 +1,35 @@
+set nocompatible  " as if I cared about vi compatibility
+
+" Vundle section
+filetype off      " required by vundle
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'ntpeters/vim-better-whitespace'
+
+call vundle#end() " required
+filetype plugin indent on
+
+" Personal settings
+set shiftwidth=4  " number of spaces to shift
+set tabstop=4     " number of spaces per tab
+set expandtab     " transform tab to spaces
+set autoindent    " auto-identation
+set number	      " display the line number
+set hlsearch      " highlight when searching
+
+set history=200   " keep 200 lines of command line history
+set ruler         " show the cursor position
+set scrolloff=10  " lines of context around the cursor
+set undolevels=1000
+
+let g:airline_theme='murmur'
+
+syntax on

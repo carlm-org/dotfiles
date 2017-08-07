@@ -12,3 +12,6 @@
 
     # fish
     ~/.config/fish/config.fish: fish/home.config.fish
+
+    # vim
+    ~/.vimrc: vim/vimrc.arch

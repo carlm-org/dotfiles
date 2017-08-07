@@ -6,8 +6,8 @@
 - clean: ['~']
 
 - link:
-    # git
-    ~/.gitconfig: git/gitconfig
+    # fish
+    ~/.config/fish/config.fish: fish/work.config.fish
 
     # vim
-    ~/.vim/bundle: vim/bundle
+    ~/.vimrc: vim/vimrc.debian

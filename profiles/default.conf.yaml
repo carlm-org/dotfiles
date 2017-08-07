@@ -11,3 +11,6 @@
 
     # vim
     ~/.vim/bundle: vim/bundle
+
+    # tmux
+    ~/.tmux.conf: tmux/tmux.conf

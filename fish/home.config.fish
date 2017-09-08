@@ -8,3 +8,7 @@ end
 
 setxkbmap us -variant intl
 
+alias l='exa'
+alias sl='exa'
+alias ls='exa'
+alias ll='exa -lhg --git'

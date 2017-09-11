@@ -1,0 +1,20 @@
+#include "/usr/share/rofi/themes//android_notification.theme"
+
+! Layout
+rofi.width: 20
+rofi.lines: 20
+rofi.columns: 2
+
+! Theming
+rofi.bw: 1
+rofi.location: 2
+rofi.yoffset: 0
+rofi.xoffset: 0
+rofi.line-margin: 2
+rofi.line-padding: 1
+rofi.separator-style: solid
+rofi.scrollbar-width: 14
+
+rofi.sidebar-mode: true
+rofi.matching: fuzzy
+rofi.threads: 8

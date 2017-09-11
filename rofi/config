@@ -4,6 +4,7 @@
 rofi.width: 20
 rofi.lines: 20
 rofi.columns: 2
+rofi.sidebar-mode: true
 
 ! Theming
 rofi.bw: 1
@@ -15,6 +16,9 @@ rofi.line-padding: 1
 rofi.separator-style: solid
 rofi.scrollbar-width: 14
 
-rofi.sidebar-mode: true
+! Features
 rofi.matching: fuzzy
 rofi.threads: 8
+
+! Terminal call
+rofi.ssh-command: {terminal} -x {ssh-client} {host}

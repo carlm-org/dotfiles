@@ -1,8 +1,10 @@
 set PATH $PATH $HOME/.cargo/bin
 
-if status --is-login
-    if test -z "$DISPLAY"
-        exec startx -- -keeptty
+if status --is-login;
+    if test (count $SSH_CLIENT) -eq 0
+        if test -z "$DISPLAY"
+            exec startx -- -keeptty
+        end
     end
 end
 

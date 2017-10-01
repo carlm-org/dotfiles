@@ -161,6 +161,7 @@ bar {
 
 exec ~/dev/scripts/dualscreen.sh
 exec blueman-applet
+exec docker start freshrss
 
 workspace 1 output DP-0
 workspace 2 output DP-0

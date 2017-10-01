@@ -11,7 +11,7 @@
     ~/.config/i3status: i3/home/i3status
 
     # fish
-    ~/.config/fish/config.fish: fish/home.config.fish
+    ~/.config/fish/config.fish: fish/config.fish
 
     # vim
     ~/.vimrc: vim/vimrc.arch
